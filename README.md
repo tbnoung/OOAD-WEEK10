@@ -13,7 +13,7 @@ System --> User: Login Process was successful
 @enduml
 
 #2
-![](http://www.plantuml.com/plantuml/img/XP112eCm44NtSmgNxS8Bk13lqTMGV2IGH9aPKmevl7OXegMuVc_-WndKM6n9aLvjtxX5RKeGXPJWe5t3yonJmMCdJs9deR3XHoPoWYz876B8etxKaEYgjVs9TnblebjBaVsHFXTghRVt7X46ylYpGSCMsDwm0W00)
+![](http://www.plantuml.com/plantuml/img/XP0n2iCm34LtdI9ZEsHhbmmXz-Wax4yns4wG59U23zzaA6qQIkRt-0zfK6EnEKMwjNtZPhKnGHHIWeDs3K-JZ0MdDpaJEmk53JkPo0bMa3Z4aE_wL4EYNwtjDxpBU10TMehiF-bjeTRBjTR32Oy80tdycVa2kzE69RyywGK0)
 ##Code
 @startuml
 
@@ -34,5 +34,7 @@ activate mailingsystem
 customerservices->mailingsystem:delete
 
 deactivate mailingsystem
+
+deactivate customerservices
 
 @enduml

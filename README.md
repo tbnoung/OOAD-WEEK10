@@ -60,3 +60,30 @@ deactivate Search
 deactivate SearchEngine1
 
 @enduml
+
+#4
+![](http://www.plantuml.com/plantuml/img/PP1D2WCX38Ntdi8Bp0LS3BCfT2yzWDKm1FmfIIpqzhMZqg5T1NdVUybpOt4aDKLbfGR8efTLCoJCZWnaAZ5o5vJpWaydC6KrviVXIoK6RP17p2NYZlS8NrT7r22RPv1c1x4zwOeiXLudPgumSEHXjEAaiWhmctiwPZOnkXT8xV7lcoq6lQppdjiZD9t05mgiDiYXVSyR)
+##Code
+@startuml
+
+Student -> seminar:enrollstudent
+
+activate seminar
+
+seminar -> course :isStudentEligible
+
+activate course
+
+course -> Student:getSeminarHistory
+
+course -> seminar :eligibilStatus
+
+deactivate course
+
+seminar -> Student : enrollmentStatus
+
+deactivate seminar
+
+Student->Student:Updaterecords
+
+@enduml

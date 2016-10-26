@@ -87,3 +87,33 @@ deactivate seminar
 Student->Student:Updaterecords
 
 @enduml
+#5
+![](http://www.plantuml.com/plantuml/img/PP1D2iCW48NtFOKNo0LSX41NsQIbz0BYZ44miUXOwEqpYKeCtRrvV6_-XaWgK5hSJMcoNqKe7iPOZQ4n0d1PRD7rsH1Ip1WEEQx6d_WzHVBBdZWmvgiZER3hA_yC7fAcZ7TzAPcb8iU9SS3_0UU4kj7Rat8jUsdEPBr2WeqVftulZCbHcyZN3hW2VsK3)
+##Code
+@startuml
+
+activate Officer
+
+activate Order
+
+Officer -> Order : gerOrderInfo
+
+activate Customer
+
+Order -> Customer:gerCustInfo
+
+activate Product
+
+Order->Product:getProductINfo
+
+deactivate Customer
+
+Order -> Order : Total
+
+deactivate Product
+
+Order ->Officer :displayResult
+
+deactivate Order
+
+@enduml

@@ -38,3 +38,25 @@ deactivate mailingsystem
 deactivate customerservices
 
 @enduml
+#3
+![](http://www.plantuml.com/plantuml/img/SoWkIImgAStDuGejJYrAJip9IIrIqBLJ24vDB4hEi59mhKXDBYr9LU1AJ2x9B4i4iY0oN10AeTGrBpqpBzNGgXWYZQOSAik5mjErWzfIK9HQa5YKgf2JMPp1XJ0PuIAhuepySeXqIYgwIp14O9OvfEQb07q60000)
+##Code
+@startuml
+
+Usercaller -> Search: Execute 
+
+activate Search
+
+Search -> SearchEngine1:search
+
+activate SearchEngine1
+
+SearchEngine1->Search:prepare lish
+
+Search ->Usercaller:show lish
+
+deactivate Search
+
+deactivate SearchEngine1
+
+@enduml

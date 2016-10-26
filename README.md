@@ -1,42 +1,5 @@
 # OOAD-WEEK10
 Sequence Diagram
-
-
-README.md 
-md เป็นภาษา Markdown นิยมใช้ใน wiki ของ github 
-
-ตัวอย่างโค้ด
-```
-# Heading ระดับ 1 
-## Heading ระดับ 2
-### Heading ระดับ 3
- 
-```
-
-ผลที่ได้
-# Heading ระดับ 1 
-## Heading ระดับ 2
-### Heading ระดับ 3
-
-
-## Code ภาษาซี
-
-ตัวอย่างโค้ด
-<pre>
-  ``` c
-  #include <stdio.h>
-  Main()
-  {
-     Printf("Hello");
-  }
-  ```
-</pre> 
-ผลที่ได้
-  ``` c
-  #include <stdio.h>
-  Main()
-  {
-     Printf("Hello");
-  }
-  ```
+#ข้อที่1
+![](http://www.plantuml.com/plantuml/img/SoWkIImgAStDuU8ABKujKj2rKmYkB2v9pRLIyCbFpypJ08dc9UQcwXGa5XUNvnUbQ79nGLGew08LWwIXIXK2YlAJKukB5SeJYnMAIvD1xBHIeC5S3gbvAI0h0000)
  
